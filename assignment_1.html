@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Assignment 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amaranth">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amaranth", sans-serif}
+.w3-bar,button {font-family: "Orbitron", sans-serif}
+.fa-hand-peace-o {font-size:200px}
+.inset {border-style: inset;}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a href="https://kristinegallawan.w3spaces.com" class="w3-bar-item w3-button w3-padding-large w3-red">Homepage</a>
+    <div class="w3-dropdown-hover">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-khaki" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <button class="w3-btn w3-white w3-padding-large">My Assignments</button>
+    <div class="w3-dropdown-content w3-border">
+    <a href="https://kristinegallawan.w3spaces.com/assignment_1.html?bypass-cache=1635775540" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Assignment 1</a>
+    <a href="https://kristinegallawan.w3spaces.com/assignment_2.html?bypass-cache=1635777197" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Assignment 2</a>
+    <a href="https://kristinegallawan.w3spaces.com/assignment_3.html?bypass-cache=1635780973" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Assignment 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Assignment 4</a>
+  </div>
+  </div>
+    <a class="w3-bar-item w3-padding-large w3-center">Assignment #1 - Conversion</a>
+</div>
+  
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="https://kristinegallawan.w3spaces.com/assignment_1.html?bypass-cache=1635775540" class="w3-bar-item w3-button w3-padding-large">Assignment 1</a>
+    <a href="https://kristinegallawan.w3spaces.com/assignment_2.html?bypass-cache=1635777197" class="w3-bar-item w3-button w3-padding-large">Assignment 2</a>
+    <a href="https://kristinegallawan.w3spaces.com/assignment_3.html?bypass-cache=1635780973" class="w3-bar-item w3-button w3-padding-large">Assignment 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Assignment 4</a>
+  </div>
+</div>
+
+
+<div class="w3-center w3-text-white" style="padding: 60px 16px">
+<h1 class="w3-margin w3-jumbo w3-text-white"><b> Celcius to Fahrenheit </b></h1>
+  <p> Celcius <input id = "c" type="number" >
+  <button onclick="convertcel()"> Convert </button>
+  <input id = "f" type="number" readonly> Fahrenheit </input> </p>
+</div>
+
+
+<div class="w3-row-padding w3-center w3-text-white" style="padding: 60px 16px">
+<h2 class="w3-margin w3-jumbo w3-text-white"><b> Fahrenheit to Celcius </b></h2>
+  <p> Fahrenheit <input id = "f1" type="number">
+  <button onclick="convertfahr()"> Convert </button>
+  <input id = "c1" type="number" readonly> Celcius </input> </p>
+</div>
+
+<div class="w3-center w3-text-white" style="padding: 60px 16px">
+<h3 class="w3-margin w3-jumbo w3-text-white"><b> Meters to Feet </b></h3>
+  <p> Meters <input id = "m" type="number" >
+  <button onclick="convertm()"> Convert </button>
+  <input id = "ft" type="number" readonly> Feet </input> </p>
+</div>
+
+<div class="w3-center w3-text-white" style="padding: 60px 16px">
+<h4 class="w3-margin w3-jumbo w3-text-white"><b> Feet to Meters </b></h4>
+  <p> Feet <input id = "ft1" type="number" >
+  <button onclick="convertft()"> Convert </button>
+  <input id = "m1" type="number" readonly> Meters </input> </p>
+</div>
+
+
+<style>
+body {
+  background-image: url('assbg.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+
+<script>
+function convertcel() {
+  var cel;
+    cel = document.getElementById("c").value * 9 / 5 + 32;
+    document.getElementById("f").value = cel;
+}
+
+function convertfahr() {
+  var fahr;
+    fahr = (document.getElementById("f1").value -32) * 5 / 9;
+    document.getElementById("c1").value = fahr;
+}
+
+function convertm() {
+  var met;
+    met = document.getElementById("m").value * 3.2808;
+    document.getElementById("ft").value = met;
+}
+
+function convertft() {
+  var feet;
+    feet = document.getElementById("ft1").value / 3.2808;
+    document.getElementById("m1").value = feet;
+}
+</script>
+
+
+
+
+</body>
+</html>
