@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Kristine Angela Gallawan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amaranth">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amaranth", sans-serif}
+.w3-bar,h1,button {font-family: "Orbitron", sans-serif}
+.fa-hand-peace-o {font-size:200px}
+.inset {border-style: inset;}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a href="https://kristinegallawan.w3spaces.com" class="w3-bar-item w3-button w3-padding-large w3-white">Homepage</a>
+    <div class="w3-dropdown-hover">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-khaki" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <button class="w3-btn w3-red w3-padding-large w3-hover-white">My Assignments</button>
+    <div class="w3-dropdown-content w3-border">
+    <a href="https://kristinegallawan.w3spaces.com/assignment_1.html?bypass-cache=1635399701" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Assignment 1</a>
+    <a href="https://kristinegallawan.w3spaces.com/assignment_2.html?bypass-cache=1635777197" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Assignment 2</a>
+    <a href="https://kristinegallawan.w3spaces.com/assignment_3.html?bypass-cache=1635780973" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Assignment 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">Assignment 4</a>
+  </div>
+  </div>
+</div>
+  
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="https://kristinegallawan.w3spaces.com/assignment_1.html?bypass-cache=1635399701" class="w3-bar-item w3-button w3-padding-large">Assignment 1</a>
+    <a href="https://kristinegallawan.w3spaces.com/assignment_2.html?bypass-cache=1635777197" class="w3-bar-item w3-button w3-padding-large">Assignment 2</a>
+    <a href="https://kristinegallawan.w3spaces.com/assignment_3.html?bypass-cache=1635780973" class="w3-bar-item w3-button w3-padding-large">Assignment 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Assignment 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-sand w3-center w3-red w3-opacity" style="padding: 70px 16px">
+  <h1 class="w3-margin w3-jumbo"><b>Kristine Angela A. Gallawan</b></h1>
+  <p class="w3-xlarge">Ateneo de Davao University</p>
+  <img src="addu.png" width="60" height="60" alt="addu logo">
+</header>
+
+<style>
+body {
+  background-image: url('bg1.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container w3-text-white">
+  <div class="w3-content">
+    <div class="w3-third">
+      <h1>こんにちは!</h1>
+      <h1>안녕하세요!</h1>
+      <h1>HELLO!</h1>
+      <h5 class="w3-padding-32 w3-text-shadow">Hi! I hope you're having a great day! Welcome to my Introduction to Computing website.</h5>
+
+      <p class="w3-text-white w3-text-shadow"><b>My name Kristine Angela A. Gallawan, a Bachelor of Science in Computer Science student from Ateneo de Davao University.</b></p>
+    </div>
+    <div class="w3-third w3-center">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-sand w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-hand-peace-o w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>MY PERSONAL WEBSITE</h1>
+      <h5 class="w3-padding-32">This website will be used to publish my programming assignments for Introduction to Computing subject.</h5>
+
+      <p class="w3-text-grey"><b>- .... . / -... .. .-. -.. ... --- -. --. / .- - / -.. .- -.-- -... .-. . .- -.- / .. ... / -. .- - ..- .-. . .----. ... / --. .. ..-. - / - --- / ..- ... .-.-.- / .-.. . - / ..- ... / --. --- .-.-.- / --- ..- .-. / .--- --- ..- .-. -. . -.-- / -... . --. .. -. ... / .- -. . .-- .-.-.-</b></p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">The fate that brings people together is not a cord so easily cut.</h1>
+    <h1 class="w3-center">-Kaedehara Kazuha</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+    <a href="https://www.facebook.com/kaa.gallawan/" class="fa fa-facebook-official w3-hover-opacity w3-button"></a>
+    <a href="https://www.instagram.com/39.098_107.868/" class="fa fa-instagram w3-hover-opacity w3-button"></a>
+ </div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
